@@ -1,55 +1,155 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TP 5 | Santiago</title>
+    <title>| CHE - Esto es Argentina</title>
+    <link rel="shortcut icon" href="imgs/icono pestaña/CHE.png" type="image/x-icon">
 </head>
 <body>
-    <h1>Formulario empresarial</h1>
-    <form action="#" method="post" enctype="multipart/form-data">
-        
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="imgs/icono pestaña/CHE ARG!.png" alt="cheArg!" width="30" height="30">
+          </a>
+          <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>-->
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="exitos.html">Celebridades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cultura.html">Cultura y tradición</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pag4.html">Argentina de Norte a Sur</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#suscribirseForm">Suscribirse</a>
+              </li>
+              <!--<li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>-->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- <nav>barra de navegación
+        <a href="index.html" target="_self">
+            <img src="imgs/icono pestaña/CHE ARG!.png" alt="cheLogo">
+        </a>
+        <a href="exitos.html">celebridades</a>
+        <a href="cultura.html">cultura y tradición</a>
+        <a href="">vistas de Norte a Sur</a>
+        <a href="suscribe">suscribirse</a>
+        tres rayitas q abren lista desplegable lateral
+    </nav> -->
 
-        <label for="name">Nombre: </label>
-        <input type="text" name="name" id="name">
-        <label for="email">Email: </label>
-        <input type="email" name="email" id="email"> <br>
+    <header> <!--imagen de fondo fija-->
+        <h1>CHE</h1>
+        <h2>Esto es Argentina</h2>
+    </header>
 
-        <label for="ape">Apellido: </label>
-        <input type="text" name="ape" id="ape">
-        <label for="foto">Foto personal: </label>
-        <input type="file" name="foto" id="foto"> <br>
+    <main> <!--Cuerpo-->
+        <!--HISTORIA DE ARGENTINA------------------------------------------------------------------->
+        <h3>Un poco de historia: la búsqueda de una Nación independiente</h3>
+        <p>   Nuestra breve historia de Argentina comienza con una llegada: en 1536 Pedro de Mendoza fundó la ciudad de Santa María de los Buenos Ayres, pero su población nativa no permaneció allí. Buenos Aires es una de las pocas ciudades del mundo que se fundó dos veces. La segunda fundación fue en 1580.</p>
+        <p>   El territorio actual de Argentina fue parte del Virreinato del Perú hasta 1776 cuando el Rey de España, Carlos III, decidió establecer el Virreinato del Río de la Plata, debido a su importancia como salida al mar. Así, Buenos Aires se convirtió en el puerto comercial del Virreinato, uniendo Potosí con España. Inglaterra también codició este puerto, por lo que la ciudad rechazó dos veces las invasiones inglesas, en 1806 y 1807.</p>
+        <p>   Cuando España fue ocupada por Francia, los habitantes del Virreinato del Río de la Plata buscaron independizarse de la corona española. El 25 de mayo de 1810, los funcionarios del gobierno se reunieron para determinar el camino a seguir y el 9 de julio de 1816 se formó un congreso de diputados de varias provincias y se proclamó la independencia. José de San Martín, padre del país de Argentina, desplegó a los militares para sentar las bases para la independencia, y emprendió campañas para que Chile y Perú también fueran independientes.</p>
+        <p>   Manuel Belgrano también promovió la independencia argentina y luchó en primera línea para consolidarla.</p>
+        <p>   Actualmente, el Gobierno de Argentina es una democracia representativa, republicana y federal, regulado por la Constitución vigente. También cuenta con votos electorales que se celebran cada dos años para elegir a los cuerpos legislativos y, desde 1995, cada cuatro para elegir al poder ejecutivo.</p>
 
-        <label for="dni">DNI :</label>
-        <input type="text" name="dni" id="dni">
-        <label for="passw">Contraseña: </label>
-        <input type="password" name="password" id="passw"><br>
+        <!--TARJETAS-------------------------------------------------------------------------------->
+        <h3>Explora</h3>
+        <div>
+            <div>
+                <img src="imgs/portadaExitos.jpg">
+            </div>
+            <h4>Celebridades</h4>
+            <p>De seguro sabes quienes son o escuchaste de ellos. Conocé a algunos de los argentinos más celebrados.</p>
+        </div>
 
-        
-        <label>Experiencia laboral: </label><br>
-        <label for="expS">SI</label>
-        <input type="radio" name="sino" value="Si" id="expS" checked><br>
-        <label>¿Cual?: </label>
-        <textarea rows="6" cols="18" name="text" id="area"></textarea><br>
-        <label for="expN">NO</label>
-        <input type="radio" name="sino" value="No" id="expN"> <br>
+        <div>
+            <div>
+                <img src="imgs/portadaCultura.jpeg">
+            </div>
+            <h4>Cultura y tradición</h4>
+            <p>Sumergite en las tradiciones de los argentinos. Descubrí la esencia de nuestras raices reflejadas en nuestro arte y festivales.</p>
+        </div>
+
+        <div>
+            <div>
+                <img src="imgs/portadaVisita.webp">
+            </div>
+            <h4>Visitas de Norte a Sur</h4>
+            <p>Con vistas únicas en el mundo, la geografía argentina es de las más completas. Desde el boscoso y frío Sur hasta el colorido y cálido Norte, Argentina lo tiene todo.</p>
+        </div>
 
 
-        <label>Nivel de ingles: </label><br>
-        <label for="alto">Alto</label>
-        <input type="radio" name="niv" value="alto" id="alto"> <br>
-        <label for="medio">Medio</label>
-        <input type="radio" name="niv" value="medio" id="medio" checked><br>
-        <label for="bajo">Bajo</label>
-        <input type="radio" name="niv" value="bajo" id="bajo"><br>
-        <label for="sin">Sin estudios</label>
-        <input type="radio" name="niv" id="sin"><br>
+        <!--FORMULARIO----------------------------------------------------------------------------->
+        <form id="suscribirseForm" action="#"> <!--COMPLETAR. Faltan "values"-->
+            <fieldset>
+                <legend>Susribite para recibir más novedades!</legend>
 
-        <label for="acepto">Acepto las políticas de la empresa</label>
-        <input type="checkbox" name="acepto" value="si" id="acepto" checked> <br>
+                <label id="emailUsuario">Correo electrónico</label><br>
+                <input type="email" name="correoUsu" id="emailUsuario"><br>
 
-        <input type="submit" name="subir" id="subir" value="SUBIR">
-        <input type="submit" name="redo" id="redo" value="Reintentar">
-    </form>
+                <label id="name">Nombre</label><br>
+                <input type="text" name="nombre" id="name"><br>
+
+                <label id="pais">País de residencia</label>
+                <select id="pais">
+                    <option>--Seleccionar--</option>
+                    <option value="uru">Uruguay</option>
+                    <option value="chi">Chile</option>
+                    <option value="arg">Argentina</option>
+                    <option value="bra">Brasil</option>
+                    <option value="bol">Bolivia</option>
+                    <option value="ven">Venezuela</option>
+                    <option value="per">Perú</option>
+                </select><br>
+
+                <label id="opinion">¿Alguna sugerencia respecto a la página? ¡Queremos saber tu opinión!</label><br>
+                <textarea rows="6" cols="30" name="text" id="opinion">Escriba...</textarea><br>
+
+                <input id="foro" type="checkbox" name="foro" value="siForo" checked>
+                <label id="foro">suscribirme también al foro de la comunidad</label>
+                <input id="terminos" type="checkbox" name="condiciones" value="siCondiciones" checked>
+                <label id="terminos">Acepto todos los términos y condiciones</label><br>
+
+                <input type="submit" name="suscribir" id="suscribir" value="SUSCRIBIRME">
+            </fieldset>
+        </form>
+
+        <!--QUIENES SOMOS-------------------------------------------------------------------------->
+        <h3>¿Quiénes somos?</h3>
+        <p>   Somos estudiantes regulares de la EPET N°20. Como proyecto anual de una de las materias que cursamos, llamada "Laboratorio Web", es que surge la creación de este sitio.</p>
+        <p>   La temática y el diseño de "CHE" es, como se puede apreciar visiblemente, inspirado en Argentina. El país de nuesta recidencia.</p>
+        <p>   La razón de por qué elegimos a Argentina como centro de inspiración es debido a la riqueza que encontramos en ella en los ámbitos tanto artísticos como gastronómicos. Encontramos una contagiosa pasión por nuestras costumbres, una pasión que nos hace preservar nuestras tradiciones sin importar los avances de la sociedad o las modas actuales.</p>
+    </main>
+
+
+    <article><!--????????-->
+    </article>
+
+    <!--Pie de página. Logos de redes sociales
+    <footer>  
+        <a href="">
+            <img >
+        </a>
+        <a href="">
+            <img >
+        </a>
+    </footer> -->
+
 </body>
 </html>
