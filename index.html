@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>| CHE - Esto es Argentina</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="CSS/style.css">
     <link rel="shortcut icon" href="imgs/icono pestaña/CHE.png" type="image/x-icon">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg" id="navBar">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
             <img src="imgs/icono pestaña/CHE ARG!.png" alt="cheArg!" width="30" height="30">
@@ -43,113 +45,143 @@
           </div>
         </div>
       </nav>
-    <!-- <nav>barra de navegación
-        <a href="index.html" target="_self">
-            <img src="imgs/icono pestaña/CHE ARG!.png" alt="cheLogo">
-        </a>
-        <a href="exitos.html">celebridades</a>
-        <a href="cultura.html">cultura y tradición</a>
-        <a href="">vistas de Norte a Sur</a>
-        <a href="suscribe">suscribirse</a>
-        tres rayitas q abren lista desplegable lateral
-    </nav> -->
 
     <header> <!--imagen de fondo fija-->
-        <h1>CHE</h1>
-        <h2>Esto es Argentina</h2>
+      <div>
+        <div class="header">
+          <h1 class="header Title">CHE</h1>
+          <h2 class="header Title2">Esto es Argentina</h2>
+        </div>
+        
+        <div class="pabs fondoHeader">
+          <img  src="imgs/fondo-bandera.webp" class="img-fluid w-100">
+        </div>
+      </div>
     </header>
+
 
     <main> <!--Cuerpo-->
         <!--HISTORIA DE ARGENTINA------------------------------------------------------------------->
-        <h3>Un poco de historia: la búsqueda de una Nación independiente</h3>
-        <p>   Nuestra breve historia de Argentina comienza con una llegada: en 1536 Pedro de Mendoza fundó la ciudad de Santa María de los Buenos Ayres, pero su población nativa no permaneció allí. Buenos Aires es una de las pocas ciudades del mundo que se fundó dos veces. La segunda fundación fue en 1580.</p>
-        <p>   El territorio actual de Argentina fue parte del Virreinato del Perú hasta 1776 cuando el Rey de España, Carlos III, decidió establecer el Virreinato del Río de la Plata, debido a su importancia como salida al mar. Así, Buenos Aires se convirtió en el puerto comercial del Virreinato, uniendo Potosí con España. Inglaterra también codició este puerto, por lo que la ciudad rechazó dos veces las invasiones inglesas, en 1806 y 1807.</p>
-        <p>   Cuando España fue ocupada por Francia, los habitantes del Virreinato del Río de la Plata buscaron independizarse de la corona española. El 25 de mayo de 1810, los funcionarios del gobierno se reunieron para determinar el camino a seguir y el 9 de julio de 1816 se formó un congreso de diputados de varias provincias y se proclamó la independencia. José de San Martín, padre del país de Argentina, desplegó a los militares para sentar las bases para la independencia, y emprendió campañas para que Chile y Perú también fueran independientes.</p>
-        <p>   Manuel Belgrano también promovió la independencia argentina y luchó en primera línea para consolidarla.</p>
-        <p>   Actualmente, el Gobierno de Argentina es una democracia representativa, republicana y federal, regulado por la Constitución vigente. También cuenta con votos electorales que se celebran cada dos años para elegir a los cuerpos legislativos y, desde 1995, cada cuatro para elegir al poder ejecutivo.</p>
+        <h3 class="titulo">Un poco de historia: la búsqueda de una Nación independiente</h3>
+        <div class="cuerpoSeccion">
+          <p>   Nuestra breve historia de Argentina comienza con una llegada: en 1536 Pedro de Mendoza fundó la ciudad de Santa María de los Buenos Ayres, pero su población nativa no permaneció allí. Buenos Aires es una de las pocas ciudades del mundo que se fundó dos veces. La segunda fundación fue en 1580.</p>
+          <p>   El territorio actual de Argentina fue parte del Virreinato del Perú hasta 1776 cuando el Rey de España, Carlos III, decidió establecer el Virreinato del Río de la Plata, debido a su importancia como salida al mar. Así, Buenos Aires se convirtió en el puerto comercial del Virreinato, uniendo Potosí con España. Inglaterra también codició este puerto, por lo que la ciudad rechazó dos veces las invasiones inglesas, en 1806 y 1807.</p>
+          <p>   Cuando España fue ocupada por Francia, los habitantes del Virreinato del Río de la Plata buscaron independizarse de la corona española. El 25 de mayo de 1810, los funcionarios del gobierno se reunieron para determinar el camino a seguir y el 9 de julio de 1816 se formó un congreso de diputados de varias provincias y se proclamó la independencia. José de San Martín, padre del país de Argentina, desplegó a los militares para sentar las bases para la independencia, y emprendió campañas para que Chile y Perú también fueran independientes.</p>
+          <p>   Manuel Belgrano también promovió la independencia argentina y luchó en primera línea para consolidarla.</p>
+          <p>   Actualmente, el Gobierno de Argentina es una democracia representativa, republicana y federal, regulado por la Constitución vigente. También cuenta con votos electorales que se celebran cada dos años para elegir a los cuerpos legislativos y, desde 1995, cada cuatro para elegir al poder ejecutivo.</p>
+        </div>
+
 
         <!--TARJETAS-------------------------------------------------------------------------------->
-        <h3>Explora</h3>
-        <div>
-            <div>
-                <img src="imgs/portadaExitos.jpg">
-            </div>
-            <h4>Celebridades</h4>
-            <p>De seguro sabes quienes son o escuchaste de ellos. Conocé a algunos de los argentinos más celebrados.</p>
-        </div>
+        <h3 class="titulo">Explora</h3>
 
-        <div>
-            <div>
-                <img src="imgs/portadaCultura.jpeg">
+        <div id="containerExplora">
+          <div id="area1">
+            <div id="subarea1">
+              <a href="exitos.html">
+                <div class="card mb-3" style="max-width: 540px;" id="tarjetaExito">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="imgs/portadaExitos.webp" class="img-fluid rounded-start" alt="celebridadesArg">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body" id="cuerpoTarjeta">
+                        <h5 class="card-title">Celebridades</h5>
+                        <p class="card-text">De seguro sabes quiénes son o escuchaste de ellos. Conocé a algunos de los argentinos más celebrados.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
             </div>
-            <h4>Cultura y tradición</h4>
-            <p>Sumergite en las tradiciones de los argentinos. Descubrí la esencia de nuestras raices reflejadas en nuestro arte y festivales.</p>
-        </div>
 
-        <div>
-            <div>
-                <img src="imgs/portadaVisita.webp">
+            <div id="subarea2">
+              <a href="pag4.html">
+                <div class="card mb-3" style="max-width: 540px;" id="tarjetaVistas">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="imgs/portadaVisita.webp" class="img-fluid rounded-start" alt="visitaArg">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Vistas de Norte a Sur</h5>
+                        <p class="card-text">Con vistas únicas en el mundo, la geografía argentina es de las más completas. Desde el boscoso y frío Sur hasta el colorido y cálido Norte, Argentina lo tiene todo.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+
+          <div id="area2">
+            <div class="card mb-3 culturaCard">
+              <a href="cultura.html">
+                <div id="cultura">
+                  <div class="imgCultura">
+                    <img src="imgs/portadaCultura.webp" class="card-img-top" alt="culturaArg" id="imgTarjeta">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Cultura y tradición</h5>
+                    <p class="card-text">Sumergite en las tradiciones de los argentinos. Descubrí la esencia de nuestras raices reflejadas en nuestro arte y festivales.</p>
+                  </div>
+                </div>
+              </a>
             </div>
-            <h4>Visitas de Norte a Sur</h4>
-            <p>Con vistas únicas en el mundo, la geografía argentina es de las más completas. Desde el boscoso y frío Sur hasta el colorido y cálido Norte, Argentina lo tiene todo.</p>
-        </div>
+          </div>
 
+          
+        </div>
+      
 
         <!--FORMULARIO----------------------------------------------------------------------------->
-        <form id="suscribirseForm" action="#"> <!--COMPLETAR. Faltan "values"-->
-            <fieldset>
-                <legend>Susribite para recibir más novedades!</legend>
+        <div class="formBox">
+          <form id="suscribirseForm" action="#"> <!--COMPLETAR. Faltan "values"-->
+              <fieldset>
+                <legend class="titulo">Suscribite para recibir más novedades!</legend>
+                  <label id="emailUsuario">Correo electrónico:</label><br>
+                  <input type="email" name="correoUsu" id="emailUsuario"><br>
 
-                <label id="emailUsuario">Correo electrónico</label><br>
-                <input type="email" name="correoUsu" id="emailUsuario"><br>
+                  <label id="name">Nombre:</label><br>
+                  <input type="text" name="nombre" id="name"><br>
 
-                <label id="name">Nombre</label><br>
-                <input type="text" name="nombre" id="name"><br>
+                  <label id="pais">País de residencia:</label><br>
+                  <select id="pais">
+                      <option>--Seleccionar--</option>
+                      <option value="uru">Uruguay</option>
+                      <option value="chi">Chile</option>
+                      <option value="arg">Argentina</option>
+                      <option value="bra">Brasil</option>
+                      <option value="bol">Bolivia</option>
+                      <option value="ven">Venezuela</option>
+                      <option value="per">Perú</option>
+                  </select><br>
 
-                <label id="pais">País de residencia</label>
-                <select id="pais">
-                    <option>--Seleccionar--</option>
-                    <option value="uru">Uruguay</option>
-                    <option value="chi">Chile</option>
-                    <option value="arg">Argentina</option>
-                    <option value="bra">Brasil</option>
-                    <option value="bol">Bolivia</option>
-                    <option value="ven">Venezuela</option>
-                    <option value="per">Perú</option>
-                </select><br>
+                  <label id="opinion">¿Alguna sugerencia respecto a la página? ¡Queremos saber tu opinión!</label><br>
+                  <textarea rows="6" cols="30" name="text" id="opinion">Escriba...</textarea><br>
 
-                <label id="opinion">¿Alguna sugerencia respecto a la página? ¡Queremos saber tu opinión!</label><br>
-                <textarea rows="6" cols="30" name="text" id="opinion">Escriba...</textarea><br>
+                  <input id="foro" type="checkbox" name="foro" value="siForo" checked>
+                  <label id="foro">Suscribirme también al foro de la comunidad</label><br>
+                  <input id="terminos" type="checkbox" name="condiciones" value="siCondiciones" checked>
+                  <label id="terminos">Acepto todos los términos y condiciones</label><br>
 
-                <input id="foro" type="checkbox" name="foro" value="siForo" checked>
-                <label id="foro">suscribirme también al foro de la comunidad</label>
-                <input id="terminos" type="checkbox" name="condiciones" value="siCondiciones" checked>
-                <label id="terminos">Acepto todos los términos y condiciones</label><br>
+                  <input type="submit" name="suscribir" id="suscribir" value="SUSCRIBIRME">
+              </fieldset>
+          </form>
+        </div>
 
-                <input type="submit" name="suscribir" id="suscribir" value="SUSCRIBIRME">
-            </fieldset>
-        </form>
 
         <!--QUIENES SOMOS-------------------------------------------------------------------------->
-        <h3>¿Quiénes somos?</h3>
-        <p>   Somos estudiantes regulares de la EPET N°20. Como proyecto anual de una de las materias que cursamos, llamada "Laboratorio Web", es que surge la creación de este sitio.</p>
-        <p>   La temática y el diseño de "CHE" es, como se puede apreciar visiblemente, inspirado en Argentina. El país de nuesta recidencia.</p>
-        <p>   La razón de por qué elegimos a Argentina como centro de inspiración es debido a la riqueza que encontramos en ella en los ámbitos tanto artísticos como gastronómicos. Encontramos una contagiosa pasión por nuestras costumbres, una pasión que nos hace preservar nuestras tradiciones sin importar los avances de la sociedad o las modas actuales.</p>
+        <h3 class="titulo">¿Quiénes somos?</h3>
+        <div class="cuerpoSeccion">
+          <p>   Somos estudiantes regulares de la EPET N°20. Como proyecto anual de una de las materias que cursamos, llamada "Laboratorio Web", es que surge la creación de este sitio.</p>
+          <p>   La temática y el diseño de "CHE" es, como se puede apreciar visiblemente, inspirado en Argentina. El país de nuesta recidencia.</p>
+          <p>   La razón de por qué elegimos a Argentina como centro de inspiración es debido a la riqueza que encontramos en ella en los ámbitos tanto artísticos como gastronómicos. Encontramos una contagiosa pasión por nuestras costumbres, una pasión que nos hace preservar nuestras tradiciones sin importar los avances de la sociedad o las modas actuales.</p>
+        </div>
     </main>
 
 
-    <article><!--????????-->
-    </article>
-
-    <!--Pie de página. Logos de redes sociales
-    <footer>  
-        <a href="">
-            <img >
-        </a>
-        <a href="">
-            <img >
-        </a>
-    </footer> -->
 
 </body>
 </html>

@@ -1,0 +1,246 @@
+@font-face { /*declaro la fuente descargada*/
+    font-family: 'Modern-Serif';
+    src: url("C:/Users/dfabr/TallerAgus/font/Andora Modern Serif.otf");
+}
+:root{
+    --font:'Modern-Serif';
+}
+
+body{
+    font-family: 'Century Gothic', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    background-color: #dbdbda;
+    
+}
+
+main{
+    margin: 7%;
+}
+#navBar{
+    background-color: #03152e;
+    color:white;
+}
+
+.header{
+    line-height: 0.7;
+    text-align: center;
+    font-family: var(--font);
+
+}
+.Title{
+    font-size: 900%;
+    margin-top: 5%;
+}
+.Title2{
+    font-size: 210%;
+}
+
+.subtitulo1{
+    font-size: 190%;
+    font-family: var(--font);
+    margin: 3%;
+}
+.subtitulo2{
+    font-size: 135%;
+    font-family: var(--font);
+    margin-top: 2%;
+}
+
+#containerExplora{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#area1{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+#area2{
+    display: grid;
+}
+#subarea1{
+    /* display: block; */
+}
+#subarea2{
+    /* display: block; */
+}
+
+.culturaCard{
+    width: 45%;
+}
+
+
+#cultura{
+    /* display: flex; */
+    /* width: 60%; */
+}
+.imgCultura{
+    /* flex: 1; */
+    /* align-items: center; */
+    /* padding: 1%; */
+}
+.card-body{
+    /* flex: 3; */
+}
+/* 
+header{
+    height: 25%;
+}
+.header{
+    align-items: center;
+    position: relative;
+}
+/* .pabs{
+    position: absolute;
+    width: 100%;
+    height: 25%;
+} */
+
+.headerCultura{
+    text-align: center;
+    line-height: 1.7;
+    margin: 2%;
+    font-family: var(--font);
+    font-size: 400%;
+    /* position: absolute;
+    flex: 1;
+    color: whitesmoke;
+    z-index: 2; */
+}
+
+
+/* .headerCultura{
+    line-height: 1;
+    text-align: center;
+    font-family: var(--font);
+} */
+
+/* .fondoColor{
+    width: 100%;
+    height: 25%;
+    background-color: rgba(0,0,0,.5);
+    z-index: 1;
+} */
+/*.fondoHeader{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    flex: 1;
+} */
+
+#platos{
+    display: flex;
+}
+#cuerpoSeccionPlatos{
+    flex: 1;
+}
+#carruselPlatos{
+    flex: 1;
+    align-items: center;
+    width: 35%;
+    margin: 2%;
+}
+
+#danzas{
+    display: flex;
+}
+#cuerpoSeccion{
+    flex: 1;
+}
+#carruselDanzas{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.titulo{
+    font-size: 280%;
+    text-align: center;
+    margin-top: 2%;
+    font-family: var(--font);
+
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+
+#tarjeta{
+    margin: 5%;
+}
+#cultura{
+    width: 85%;
+    /* display: block; */
+}
+#imgTarjeta{
+    width: 110%;
+    margin: 5%;
+}
+.cuerpoTarjeta{
+    display: flex;
+    width: 30%;
+    height: 35%;
+    margin: 5%;
+}
+#card{
+    display: block;   
+}
+
+
+#festival{
+    display: flex;
+}
+.videoFestival{
+    flex: 1;
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-end;
+    margin-right: 2%;
+}
+.cuerpoSeccionFest{
+    flex: 3;
+}
+
+#desayuno{
+    display: flex;
+}
+.seccionCuerpoDesayuno{
+    flex: 3;
+}
+.imgDesayuno{
+    flex: 1;
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+    margin-left: 2%;
+}
+
+
+.videoArg{
+    display: flex;
+    justify-content: center;
+}
+
+.formBox{
+    display: flex;
+    justify-content: center;
+}
+form{
+    padding: 1%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+    border-radius: 13%;
+    border-color: #508BBF;
+    border-width: 3px;
+}
+
+#imgAsado{
+    display: flex;
+    justify-content: space-around;
+}
