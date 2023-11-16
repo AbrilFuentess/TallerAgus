@@ -4,208 +4,312 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Éxitos Nacionales</title>
-    <link rel="shortcut icon" href="imgs/icono pestaña/CHE.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/icono pestaña/CHE.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/exitosstyle.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
 
 </head>
 <body>
-    <nav> <!--barra de navegación-->
-        <a href="index.html" target="_self">
-            <img src="imgs/icono pestaña/CHE ARG!.png" alt="cheLogo">
-        </a>
-        <a href="index.html">Volver</a>
-        <a href="cultura.html">Cultura y tradición</a>
-        <a href="">Vistas de Norte a Sur</a>
-        <a href="suscribe">Suscribirse</a>
-        <!--tres rayitas q abren lista desplegable lateral-->
-    </nav>
 
-
-
-    <div class="menu">
-
-
+        <nav class="navbar navbar-expand-lg" id="navBar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img src="img/icono pestaña/CHEARG!.png" alt="cheArg!" width="30" height="30">
+              </a>
+              <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>-->
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="exitos.html">Celebridades</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="cultura.html">Cultura y tradición</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pag4.html">Argentina de Norte a Sur</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#suscribirseForm">Suscribirse</a>
+                  </li>
+                  <!--<li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown link
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>-->
+                </ul>
+              </div>
+            </div>
+          </nav>
+    
     </div>
+<main>
+    <h1 class="titulo">Éxitos</h1>
+    <h2 class="dtitulo">ATEMPORALES</h2>
 
-    <h1>Éxitos</h1>
-    <h2>ATEMPORALES</h2>
-
-        <div class="gral">
+        <div class="impor">
 
             <div class="exitos">
+                <div class="cs">
+                    <div class="card">
 
-                <div class="cerati">
-
-                    <div class="ftcerati">
-                    <img src="img\ceratimini.jpg" alt="gustavo cerati" width="335px" height="506px" >
-                    </div>
-                    <div class="nombre">
-                        <p>Gustavo Cerati</p>
-                    </div>
-                </div>
-
-
-                <div class="Mercedes">
-
-                    <div class="ftsosa">
-                        <img src="img/ftmercedes.png" alt="Mercedes Sosa" width="330px" height="361px">
-                    </div>
-                    <div class="nombre">
-                        <p>Mercedes Sosa</p>
+                        <div class="ftcerati">
+                        <img src="img\ceratimini.jpg" class="card-img" width="335px" height="506px" >
+                        </div>
+                        <div class="card-text"> 
+                            <h3>Gustavo Cerati</h3>
+                            <p>Gustavo Cerati fue un músico y compositor argentino,
+                                reconocido como el líder de la banda de rock Soda Stereo.
+                                Nació el 11 de agosto de 1959 en Buenos Aires y falleció el 4 de septiembre de 2014.
+                                Su talento musical y su influencia en la música latinoamericana lo
+                                convirtieron en una figura icónica.</p>
+                        </div>
                     </div>
 
-                </div>
 
+                    <div class="sosa-card">
+                        
+                        <div class="ftsosa">
+                            <img src="img/ftmercedes.png" class="card-img" alt="Mercedes Sosa" width="330px" height="361px">
+                        </div>
+                        <div class="card-text">  
+                            <h3>Mercedes Sosa</h3>
+                            <p>Cantante y activista argentina, fue una destacada voz de la música folklórica latinoamericana. 
+                                Nació el 9 de julio de 1935 en Tucumán, Argentina, y falleció el 4 de octubre de 2009.
+                                A través de su música, Sosa luchó por los derechos humanos y la justicia social, 
+                                dejando un legado duradero en la industria musical y en la conciencia colectiva.</p>
+                        </div>
 
-                <div class="Maradona">
-
-                    <div class="ftmaradona">
-                    <img src="img/maradona.png" alt="Diego Maradona" width="200px" height="300px" >
-                    </div>
-                    <div class="nombre">
-                        <p>Diego Maradona</p>
-                    </div>
-                </div>
-
-
-                <div class="evita">
-
-                    <div class="ftevita">
-                    <img src="img/evita.png" alt="Eva Perón" width="320px" height="448px" >
-                    </div>
-                    <div class="nombre">
-                        <p>Eva Perón</p>
                     </div>
                 </div>
 
+                <div class="me">
+                    <div class="card">
 
-                <div class="Gardel">
-
-                    <div class="ftGardel">
-                    <img src="img/gardel.png" alt="Carlos Gardel" width="250px" height="380px" >
+                        <div class="ftmaradona">
+                        <img src="img/maradona.png" class="card-img" alt="Diego Maradona" width="200px" height="300px" >
+                        </div>
+                        <div class="card-text">
+                            <h3> Diego Armando Maradona</h3>
+                            <p>Diego Maradona fue un futbolista argentino considerado uno de los mejores jugadores de todos los tiempos.
+                                Nació el 30 de octubre de 1960 en Buenos Aires y falleció el 25 de noviembre de 2020. Ganó la Copa del Mundo 
+                                con la selección argentina en 1986 y 
+                                dejó una huella imborrable en la historia del fútbol con su habilidad, pasión y carisma.</p>
+                        </div>
                     </div>
-                    <div class="nombre">
-                        <p>Carlos Gardel</p>
+                
+
+                    <div class="card">
+
+                        <div class="ftevita">
+                        <img src="img/evita.png" class="card-img" alt="Eva Perón" width="320px" height="448px" >
+                        </div>
+                        <div class="card-text">
+                            <h3>Eva Perón</h3>
+                            <p>Eva Perón, también conocida como Evita, fue una política y líder argentina. 
+                                Nació el 7 de mayo de 1919 en Los Toldos, Argentina, y falleció el 26 de julio de 1952.
+                                Fue la esposa del presidente Juan Domingo Perón y desempeñó un papel destacado en la política 
+                                y en la lucha por los derechos de los trabajadores y las mujeres.
+                                Su carisma y dedicación la convirtieron en un símbolo para muchos argentinos.</p>
+                        </div>
                     </div>
                 </div>
 
+                <div class="gm">
+                    <div class="card">
 
-                <div class="Messi">
-
-                    <div class="ftmessi">
-                    <img src="img/messi.jpg" alt="Lionel Messi" width="300px" height="363px" >
+                        <div class="ftGardel">
+                        <img src="img/gardel.png" class="card-img" alt="Carlos Gardel" width="250px" height="380px" >
+                        </div>
+                        <div class="card-text">
+                            <h3>Carlos Gardel</h3>
+                            <p>Carlos Gardel fue un cantante, compositor y actor argentino considerado el máximo exponente del tango. 
+                                Nació el 11 de diciembre de 1890 en Toulouse, Francia, y falleció el 24 de junio de 1935 en un trágico accidente aéreo en Medellín,
+                                Colombia. Su voz única y su estilo carismático lo convirtieron en una leyenda del tango, 
+                                dejando un legado eterno en la música argentina y en el género del tango a nivel mundial.</p>
+                        </div>
                     </div>
-                    <div class="nombre">
-                        <p>Lionel Messi</p>
+
+
+                    <div class="messi-card">
+
+                        <div class="ftmessi">
+                        <img src="img/messi.jpg" class="card-img" alt="Lionel Messi" width="300px" height="363px" >
+                        </div>
+                        <div class="card-text">
+                            <h3>Lionel Messi</h3>
+                            <p>Nacido el 24 de junio de 1987 en Rosario, Argentina,
+                                es un futbolista considerado uno de los mejores jugadores de todos los tiempos. 
+                                Durante su carrera en el FC Barcelona y el Paris Saint-Germain, ha ganado numerosos títulos y 
+                                establecido numerosos récords. Con su habilidad excepcional, visión de juego y capacidad goleadora, 
+                                ha dejado una huella  en el fútbol.</p>
+                        </div>
                     </div>
                 </div>
 
+                <div class="s">
+                    <div class="seleccion-card">
 
-                <div class="Seleccion">
-
-                    <div class="ftseleccion">
-                    <img src="img/seleccion.png" alt="Seleccion Argentina" width="" height="" >
-                    </div>
-                    <div class="nombre">
-                        <p>18/12/2022</p>
+                        <div class="ftseleccion">
+                        <img src="img/seleccion.png" class="s-card-img" alt="Seleccion Argentina" width="" height="" >
+                        </div>
+                        <div class="card-text">
+                            <h3>18/12/2022</h3>
+                        </div>
                     </div>
                 </div>
-
-
+            </div>
 
         </div>
 
         <div class="hoy">
+            <div id="ct"><h3 class="ctitulo">Celebridades del momento</h3></div>
 
-            <h3>Celebridades del momento</h3>
+            <div class="cont-hoy">
+                <div class="sb">    
+                    <div class="salvatto-card">
 
-
-                <div class="Salvatto">
-
-                    <div class="ftsalvatto">
-                    <img src="img\salvatto.png" alt="Mateo Salvatto" width="" height="" >
+                        <div class="ftsalvatto">
+                        <img src="img\salvatto.png" class="card-img" alt="Mateo Salvatto" width="" height="" >
+                        </div>
+                        <div class="card-text"> 
+                            <h3>Mateo Salvatto</h3>
+                            <p>Mateo Salvatto es un emprendedor argentino que ha trabajado en tecnología e inclusión social, 
+                                destacándose por su aplicación "Háblalo" para personas con discapacidad.</p>
+                        </div>
                     </div>
-                    <div class="nombre">
-                        <p>Mateo Salvatto</p>
-                    </div>
-                </div>
 
-                <div class="Bizarrap">
+                    <div class="bizarrap-card">
 
-                    <div class="ftbizarrap">
-                    <img src="img/bzrp.png" alt="Foto Bizarrap" width="" height="" >
-                    </div>
-                    <div class="nombre">
-                        <p>"Bizarrap"</p>
-                    </div>
-                </div>
-
-                <div class="Duki">
-
-                    <div class="ftduki">
-                    <img src="img\duki.png" alt="Duki Foto" width="" height="" >
-                    </div>
-                    <div class="nombre">
-                        <p>"Duki"</p>
+                        <div class="ftbizarrap">
+                        <img src="img/bzrp.png" class="card-img" alt="Foto Bizarrap" width="" height="" >
+                        </div>
+                        <div class="card-text">
+                                <h3>"Bizarrap"</h3>
+                                <p>Bizarrap es un famoso productor musical argentino conocido por 
+                                    sus sesiones de freestyle y colaboraciones con artistas reconocidos.</p>                 </div>
                     </div>
                 </div>
+                <div class="dc">
+                    <div class="duki-card">
 
-                <div class="Colapinto">
-
-                    <div class="ftcolapinto">
-                    <img src="img/colapinto.jpg" alt="Franco Colapinto" width="246px" height="168px" >
+                        <div class="ftduki">
+                        <img src="img\duki.png" class="card-img" alt="Duki Foto" width="" height="" >
+                        </div>
+                        <div class="card-text">
+                            <h3>Mauro Lombardo</h3>
+                            <p>Rapero argentino conocido por su estilo único
+                                y colaboraciones destacadas en la escena del trap.</p>    
+                        </div>
                     </div>
-                    <div class="nombre">
-                        <p>Franco Colapinto</p>
+
+                    <div class="colapinto-card">
+
+                        <div class="ftcolapinto">
+                        <img src="img/colapinto.jpg" class="card-img" alt="Franco Colapinto" width="246px" height="168px" >
+                        </div>
+                        <div class="card-text">
+                            <h3>Franco Colapinto</h3>
+                            <p>Franco Colapinto es un talentoso piloto de automovilismo argentino. 
+                                Ha competido en categorías destacadas
+                                y se considera una promesa en su campo.</p>
+                        </div>
                     </div>
                 </div>
-
 
         </div>
-        <div class="nqn">
-
-                <div class="maracuña">
+        <div class="cont-nqn">
+            <div class="m">
+                <div class="maracuña-card">
 
                     <div class="ftmaracuña">
-                    <img src="img/maracuña.jpg" alt=" Marcos Acuña" width="600px" height="335px" >
+                    <img src="img/maracuña.jpg" class="card-img" alt=" Marcos Acuña" width="600px" height="335px" >
                     </div>
-                    <div class="nombre">
-                        <p>Marcos Acuña</p>
+                    <div class="card-text">
+                        <h3>Marcos Acuña</h3>
+                        <p>Marcos Acuña es un futbolista argentino conocido por su 
+                            versatilidad y habilidades defensivas. Ha jugado 
+                            en clubes destacados y representado a la selección argentina.</p>
                     </div>
                 </div>
-
-                <div class="joseacuña">
+                </div>
+            <div class="ja">
+                <div class="joseacuña-card">
 
                     <div class="ftjoseacuña">
-                    <img src="" alt="Jose Luis Acuña" width="600px" height="335px" >
+                    <img src="img\joseacuña285x380.png" class="card-img" alt="Jose Luis Acuña" width="600px" height="335px" >
                     </div>
-                    <div class="nombre">
-                        <p>Jose Luis Acuña</p>
+                    <div class="card-text">
+                    <h3>Jose Luis Acuña</h3>
+                    <p>José Luis Acuña fue el primer deportista de Neuquén que 
+                        compitió en los Juegos Panamericanos 2023 y lo hizo con gran éxito.</p>
                     </div>
                 </div>
-
-                <div class="antonella">
+                <div class="antonella-card">
 
                     <div class="ftantonella">
-                    <img src="img/antonella.jpg" alt="Antonella Sanchez" width="600px" height="335px" >
+                    <img src="img/antonella.jpg" class="card-img" alt="Antonella Sanchez" width="600px" height="335px" >
                     </div>
-                    <div class="nombre">
-                        <p>Antonella Sánchez</p>
+                    <div class="card-text">  
+                    <h3>Antonella Sánchez</h3>
+                    <p> Antonella Sánchez obtuvo el primer puesto en una de las competencias de 
+                        Crossfit más importantes y emblemáticas de Sudamérica</p>
                     </div>
                 </div>
-
+            </div>
 
                 </div>
+
+            </main>
+<footer>
+        <div class="ft">
+            <div class="div1">
+                <h4>Nai</h4>
+                <a href="https://instagram.com/naimaa.jcm?igshid=NzZlODBkYWE4Ng==">
+            <button class="Btn">
+                <span class="svgContainer">
+                <svg fill="white" class="svgIcon" viewBox="0 0 448 512" height="1.5em" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+                </span>
+                <span class="BG"></span>
+            </button></a>
+            </div>
+
+            <div class="div2">
+                <h4>Abril</h4>
+                <a href="https://instagram.com/abrilita_06?igshid=NzZlODBkYWE4Ng==">
+            <button class="Btn">
+                <span class="svgContainer">
+                <svg fill="white" class="svgIcon" viewBox="0 0 448 512" height="1.5em" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+                </span>
+                <span class="BG"></span>
+            </button></a>
+            </div>
+
+            <div class="div3">
+                <h4>Zoe</h4>
+                <a href="https://instagram.com/zowisx?igshid=NzZlODBkYWE4Ng==">
+            <button class="Btn">
+                <span class="svgContainer">
+                <svg fill="white" class="svgIcon" viewBox="0 0 448 512" height="1.5em" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+                </span>
+                <span class="BG"></span>
+            </button></a>
+            </div>
+
+
 
         </div>
-<footer>
 
-    <img src="img/igicon.jpg" alt="Icono de Instagram" width="50px" height="50px">
-    <div class="igs">
-<a href="https://instagram.com/abrilita_06?igshid=NzZlODBkYWE4Ng=="><em>Abril</em></a><br>
-<a href="https://instagram.com/naimaa.jcm?igshid=NzZlODBkYWE4Ng=="><em>Naíma</em></a><br>
-<a href="https://instagram.com/zowisx?igshid=NzZlODBkYWE4Ng=="><em>Zoe</em></a>
-
-</div>
 </footer>
 
 
